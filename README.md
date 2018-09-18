@@ -1,4 +1,4 @@
-#Small static web page
+# Small static web page
 ---
 
 Dev tools: jQuery, sass, gulp & bootstrap 4.
