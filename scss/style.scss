@@ -1,0 +1,20 @@
+// =====================
+// =      import       =
+// =====================
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// =============================
+// =      Global Setting       =
+// =============================
+
+@import "_base/colors";
+@import "_base/variables";
+@import "_base/base";
+
+// =============================
+// =          Modules          =
+// =============================
+
+@import "_modules/slick";
+@import "_modules/slick-theme";
+@import "_modules/custom-slick";

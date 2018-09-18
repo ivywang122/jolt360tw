@@ -1,0 +1,60 @@
+.slick-arrow {
+  width: 56px;
+  height: 56px;
+  color: $white;
+  z-index: 10;
+  opacity: .5;
+  -webkit-filter: drop-shadow(0 0 8px $black);
+  filter: drop-shadow(0 0 8px $black);
+
+  @media (max-width: 575px) {
+    width: 30px;
+    height: 30px;
+  }
+
+  &:hover {
+    color: $white;
+    opacity: 1;
+  }
+
+  &.slick-arrow {
+    right: 25px;
+    &:before{
+      font-size: 56px;
+      @media (max-width: 575px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  &.slick-prev {
+    left: 25px;
+  }
+}
+
+
+.slick-slider{
+  font-size: 0;
+  &.slick-dotted{
+    margin: 0;
+  }
+  .slick-dots {
+    position: relative;
+    text-align: center;
+    margin: -20px auto 0;
+    top: -10px;
+    @media(max-width: 575px) {
+      display: none;
+    }
+  }
+  .slick-list {
+    font-size: 0;
+  }  
+}
+
+.banner-wrapper{
+  width: 100%;
+  height: 0;
+  padding-bottom: 45%;
+  background-color: $gray;
+}

@@ -1,0 +1,18 @@
+// Text color of the body.
+$global-font-color: $black !default;
+
+// Font size attribute applied to '<html>' and '<body>'.
+$global-font-size: 16px !default;
+
+// Default line height for all type. `$global-lineheight` is 24px while `$global-font-size` is 16px.
+$global-lineheight: 1.5 !default;
+
+// Default letter spacing
+$global-leter-spacing: .03em !default;
+
+// Font family of the site.
+$global-font-family: '微軟正黑體', sans-serif !default;
+
+// Background color of the site.
+$global-background: $white !default;
+
